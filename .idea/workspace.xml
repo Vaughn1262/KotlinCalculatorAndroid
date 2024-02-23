@@ -33,6 +33,9 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="Calculator/main" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -47,9 +50,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/vaugh/AndroidStudioProjects/Drawingapp2",
     "settings.editor.selected.configurable": "device.mirroring"
   }
@@ -148,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708727244034</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished with a four function calculator with android support">
+      <option name="closed" value="true" />
+      <created>1708727958936</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708727958936</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
