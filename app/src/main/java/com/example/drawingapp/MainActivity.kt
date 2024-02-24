@@ -8,7 +8,7 @@ import android.widget.EditText
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() , View.OnClickListener {
-
+    //initializes the variable used in the xml file
     lateinit var btn_Add : Button
     lateinit var btn_Sub : Button
     lateinit var btn_Mul : Button
@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
     lateinit var text_b : EditText
     lateinit var ResultTextview : TextView
 
+    //Sets the buttons to work as intended and sets listeners to them
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -32,6 +33,9 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
         btn_Mul.setOnClickListener(this)
         btn_Div.setOnClickListener(this)
     }
+
+    //If button is clicked do that operation
+    //can't use switch statements so when was used.
     override fun onClick(v: View?){
         var A = text_a.text.toString().toDouble()
         var B = text_b.text.toString().toDouble()
@@ -55,6 +59,7 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
                 operation = "/"
             }
         }
+        //Displays the equation that was entered into the calculator back to user
         ResultTextview.text = "$A $operation $B = $Result"
     }
 }

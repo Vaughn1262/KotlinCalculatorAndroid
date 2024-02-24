@@ -64,7 +64,6 @@
             android:layout_margin="6dp"
             android:text="/" />
     </LinearLayout>
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -73,6 +72,4 @@
         android:text="Result"
         android:id="@+id/Resultid"
         android:textSize="25dp"/>
-
-
 </LinearLayout>
